@@ -17,5 +17,10 @@ class Student
     sql = "CREATE TABLE students (id INTEGER PRIMARY KEY, name TEXT, grade INTEGER)"
     DB[:conn].execute(sql)
   end
+  
+  def self.drop_table
+    sql = "DROP TABLE students"
+    DB[:conn].execute(sql)
+  end
 
 end
