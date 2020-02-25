@@ -48,7 +48,7 @@ class Student
     student.id = row[0]
     student.name =  row[1]
     student.grade = row[2]
-    new_song  # return the newly created instance
+    student
   end
 
 end
