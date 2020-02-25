@@ -13,7 +13,7 @@ class Student
     @id = id
   end
   
-  def self.create_table
+  def self.create_table(name, grade)
     sql = "CREATE TABLE students VALUES id INTEGER PRIMARY KEY, name TEXT, grade INTEGER"
     DB[:conn]
   end
