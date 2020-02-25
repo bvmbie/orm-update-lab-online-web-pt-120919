@@ -15,7 +15,7 @@ class Student
   
   def self.create_table(name, grade)
     sql = "CREATE TABLE students VALUES id INTEGER PRIMARY KEY, name TEXT, grade INTEGER"
-    DB[:conn]
+    DB[:conn].execute()
   end
 
 end
