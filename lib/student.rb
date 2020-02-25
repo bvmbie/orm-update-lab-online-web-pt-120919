@@ -24,7 +24,7 @@ class Student
   end
   
   def save
-    sql = 
+    sql = "INSERT INTO students VALUES " 
   end
 
 end
